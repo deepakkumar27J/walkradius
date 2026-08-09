@@ -1,0 +1,15 @@
+C:\dev mine\walkinradius\src\WalkInRadius.Application\bin\Debug\net10.0\WalkInRadius.Application.deps.json
+C:\dev mine\walkinradius\src\WalkInRadius.Application\bin\Debug\net10.0\WalkInRadius.Application.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Application\bin\Debug\net10.0\WalkInRadius.Application.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Application\bin\Debug\net10.0\WalkInRadius.Domain.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Application\bin\Debug\net10.0\WalkInRadius.Domain.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.csproj.AssemblyReference.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.AssemblyInfoInputs.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.AssemblyInfo.cs
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.csproj.CoreCompileInputs.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRa.98434DC7.Up2Date
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\refint\WalkInRadius.Application.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\WalkInRadius.Application.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Application\obj\Debug\net10.0\ref\WalkInRadius.Application.dll

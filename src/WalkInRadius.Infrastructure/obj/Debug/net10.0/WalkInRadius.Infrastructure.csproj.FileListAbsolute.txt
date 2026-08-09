@@ -1,0 +1,15 @@
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\bin\Debug\net10.0\WalkInRadius.Infrastructure.deps.json
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\bin\Debug\net10.0\WalkInRadius.Infrastructure.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\bin\Debug\net10.0\WalkInRadius.Infrastructure.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\bin\Debug\net10.0\WalkInRadius.Domain.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\bin\Debug\net10.0\WalkInRadius.Domain.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.csproj.AssemblyReference.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.AssemblyInfoInputs.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.AssemblyInfo.cs
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.csproj.CoreCompileInputs.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRa.E8FC2755.Up2Date
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\refint\WalkInRadius.Infrastructure.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\ref\WalkInRadius.Infrastructure.dll

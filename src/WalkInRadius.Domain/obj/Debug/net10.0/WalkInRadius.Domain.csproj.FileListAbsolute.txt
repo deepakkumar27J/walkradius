@@ -1,0 +1,11 @@
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\bin\Debug\net10.0\WalkInRadius.Domain.deps.json
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\bin\Debug\net10.0\WalkInRadius.Domain.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\bin\Debug\net10.0\WalkInRadius.Domain.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.AssemblyInfoInputs.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.AssemblyInfo.cs
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.csproj.CoreCompileInputs.cache
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\refint\WalkInRadius.Domain.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.pdb
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\ref\WalkInRadius.Domain.dll

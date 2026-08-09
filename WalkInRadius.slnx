@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WalkInRadius.Api/WalkInRadius.Api.csproj" />
+    <Project Path="src/WalkInRadius.Application/WalkInRadius.Application.csproj" />
+    <Project Path="src/WalkInRadius.Domain/WalkInRadius.Domain.csproj" />
+    <Project Path="src/WalkInRadius.Infrastructure/WalkInRadius.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/WalkInRadius.IntegrationTests/WalkInRadius.IntegrationTests.csproj" />
+    <Project Path="tests/WalkInRadius.UnitTests/WalkInRadius.UnitTests.csproj" />
+  </Folder>
+</Solution>
