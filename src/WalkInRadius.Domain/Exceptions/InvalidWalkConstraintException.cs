@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WalkInRadius.Domain.Exceptions
+namespace WalkInRadius.Domain.Exceptions;
+
+public class InvalidWalkConstraintException : Exception
 {
-    internal class InvalidWalkConstraintException
-    {
-    }
+    public InvalidWalkConstraintException (string message) : base (message) { }
 }

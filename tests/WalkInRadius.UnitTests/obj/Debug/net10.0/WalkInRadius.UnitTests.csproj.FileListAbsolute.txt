@@ -112,3 +112,4 @@ C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\refint\W
 C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\WalkInRadius.UnitTests.pdb
 C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\WalkInRadius.UnitTests.genruntimeconfig.cache
 C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\ref\WalkInRadius.UnitTests.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\WalkInRadius.UnitTests.sourcelink.json

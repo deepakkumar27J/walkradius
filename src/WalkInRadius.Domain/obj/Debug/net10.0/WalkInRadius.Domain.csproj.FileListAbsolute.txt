@@ -9,3 +9,4 @@ C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.
 C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\refint\WalkInRadius.Domain.dll
 C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.pdb
 C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\ref\WalkInRadius.Domain.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Domain\obj\Debug\net10.0\WalkInRadius.Domain.sourcelink.json

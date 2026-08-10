@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WalkInRadius.Domain.Interfaces
+using WalkInRadius.Domain.ValueObjects;
+
+namespace WalkInRadius.Domain.Interfaces;
+
+public interface IWalkingDataService
 {
-    internal interface IWalkingDataService
-    {
-    }
+    Task<IEnumerable<Coordinate>> getCircularRouteAsync(Coordinate start, double radiusKm);
 }

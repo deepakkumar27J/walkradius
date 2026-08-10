@@ -112,3 +112,4 @@ C:\dev mine\walkinradius\tests\WalkInRadius.IntegrationTests\obj\Debug\net10.0\r
 C:\dev mine\walkinradius\tests\WalkInRadius.IntegrationTests\obj\Debug\net10.0\WalkInRadius.IntegrationTests.pdb
 C:\dev mine\walkinradius\tests\WalkInRadius.IntegrationTests\obj\Debug\net10.0\WalkInRadius.IntegrationTests.genruntimeconfig.cache
 C:\dev mine\walkinradius\tests\WalkInRadius.IntegrationTests\obj\Debug\net10.0\ref\WalkInRadius.IntegrationTests.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.IntegrationTests\obj\Debug\net10.0\WalkInRadius.IntegrationTests.sourcelink.json

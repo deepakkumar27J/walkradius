@@ -13,3 +13,4 @@ C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkI
 C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\refint\WalkInRadius.Infrastructure.dll
 C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.pdb
 C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\ref\WalkInRadius.Infrastructure.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Infrastructure\obj\Debug\net10.0\WalkInRadius.Infrastructure.sourcelink.json

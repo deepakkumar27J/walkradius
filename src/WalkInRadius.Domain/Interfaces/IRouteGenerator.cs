@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WalkInRadius.Domain.Interfaces
+using WalkInRadius.Domain.Entities;
+using WalkInRadius.Domain.ValueObjects;
+namespace WalkInRadius.Domain.Interfaces;
+
+public interface IRouteGenerator
 {
-    internal interface IRouteGenerator
-    {
-    }
+    Task<Route> GenerateAsync(Walk walk);
 }

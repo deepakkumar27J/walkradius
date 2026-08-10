@@ -37,3 +37,4 @@ C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\refint\WalkInRad
 C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\WalkInRadius.Api.pdb
 C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\WalkInRadius.Api.genruntimeconfig.cache
 C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\ref\WalkInRadius.Api.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\WalkInRadius.Api.sourcelink.json

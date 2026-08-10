@@ -127,7 +127,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WalkInRadius.Api",
+              "Title": "WalkInRadius.Api.csproj",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Api\\WalkInRadius.Api.csproj",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Api\\WalkInRadius.Api.csproj",
               "ToolTip": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Api\\WalkInRadius.Api.csproj",
@@ -147,8 +147,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\RouteGeneration\\RouteGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:48:48.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:48:48.445Z"
             },
             {
               "$type": "Document",
@@ -160,8 +159,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:47:44.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:47:44.739Z"
             },
             {
               "$type": "Document",
@@ -173,8 +171,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\ExternalApis\\OpenRouteService\\Models\\OrsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:46:30.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:46:30.865Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\DTOs\\RouteSegmentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:44:45.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:44:45.393Z"
             },
             {
               "$type": "Document",
@@ -199,8 +195,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\DTOs\\CoordinateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:44:32.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:44:32.381Z"
             },
             {
               "$type": "Document",
@@ -212,8 +207,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\UseCases\\GenerateWalk\\GenerateWalkResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:43:56.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:43:56.422Z"
             },
             {
               "$type": "Document",
@@ -225,8 +219,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\Enums\\ConstraintType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:42:01.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:42:01.701Z"
             },
             {
               "$type": "Document",
@@ -238,8 +231,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\Interfaces\\IRouteGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:40:51.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:40:51.514Z"
             },
             {
               "$type": "Document",
@@ -251,13 +243,12 @@
               "RelativeToolTip": "src\\WalkInRadius.Api\\Controllers\\WalkController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:26:51.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:26:51.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WalkInRadius.Infrastructure",
+              "Title": "WalkInRadius.Infrastructure.csproj",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj",
               "ToolTip": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj",
@@ -277,8 +268,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\ValueObjects\\RouteSegment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:40:19.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:40:19.128Z"
             },
             {
               "$type": "Document",
@@ -290,13 +280,12 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\ValueObjects\\WalkConstraint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:40:06.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:40:06.803Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "WalkInRadius.Application",
+              "Title": "WalkInRadius.Application.csproj",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Application\\WalkInRadius.Application.csproj",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Application\\WalkInRadius.Application.csproj",
               "ToolTip": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Application\\WalkInRadius.Application.csproj",
@@ -316,8 +305,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\Entities\\Route.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:39:41.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:39:41.778Z"
             },
             {
               "$type": "Document",
@@ -329,8 +317,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\ExternalApis\\OpenRouteService\\Models\\OrsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:25:01.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:25:01.342Z"
             },
             {
               "$type": "Document",
@@ -342,8 +329,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Api\\Middleware\\ErrorHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:27:07.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:27:07.829Z"
             },
             {
               "$type": "Document",
@@ -355,8 +341,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\UseCases\\GenerateWalk\\GenerateWalkHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:20:45.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:20:45.706Z"
             },
             {
               "$type": "Document",
@@ -368,8 +353,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\UseCases\\GenerateWalk\\GenerateWalkQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:20:27.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:20:27.922Z"
             },
             {
               "$type": "Document",
@@ -381,8 +365,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:25:53.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:25:53.14Z"
             },
             {
               "$type": "Document",
@@ -394,8 +377,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\Services\\WalkingDataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:25:37.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:25:37.684Z"
             },
             {
               "$type": "Document",
@@ -407,8 +389,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\Exceptions\\InvalidWalkConstraintException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:17:04.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:17:04.143Z"
             },
             {
               "$type": "Document",
@@ -420,8 +401,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\ExternalApis\\OpenRouteService\\OpenRouteServiceClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:24:31.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:24:31.382Z"
             },
             {
               "$type": "Document",
@@ -433,8 +413,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Application\\DTOs\\RouteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:20:59.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:20:59.417Z"
             },
             {
               "$type": "Document",
@@ -446,8 +425,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\Interfaces\\IWalkingDataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:16:38.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:16:38.401Z"
             },
             {
               "$type": "Document",
@@ -459,13 +437,12 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\ValueObjects\\Coordinate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:15:45.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:15:45.883Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "WalkInRadius.Domain",
+              "Title": "WalkInRadius.Domain.csproj",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Domain\\WalkInRadius.Domain.csproj",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Domain\\WalkInRadius.Domain.csproj",
               "ToolTip": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Domain\\WalkInRadius.Domain.csproj",
@@ -485,8 +462,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Domain\\Entities\\Walk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:14:12.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T13:14:12.693Z"
             }
           ]
         }

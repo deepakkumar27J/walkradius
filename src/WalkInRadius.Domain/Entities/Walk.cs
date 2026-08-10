@@ -1,10 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
-namespace WalkInRadius.Domain.Entities
+using WalkInRadius.Domain.ValueObjects;
+namespace WalkInRadius.Domain.Entities;
+public class Walk
 {
-    internal class Walk
+    public Guid Id { get;}
+    public Coordinate StartPoint {  get;}
+    public WalkConstraint Constraint { get;}
+    public DateTime CreatedAt { get;}
+
+    public Walk(Coordinate startPoint, WalkConstraint constraint)
     {
+        Id = Guid.NewGuid();
+        StartPoint = startPoint;
+        Constraint = constraint;
+        CreatedAt = DateTime.UtcNow;
     }
 }
+
