@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8KoyIHHPaHI=",
+  "dgSpecHash": "v5Ajpk6R/mE=",
   "success": true,
   "projectFilePath": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Api\\WalkInRadius.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kumar\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\kumar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.6\\microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
     "C:\\Users\\kumar\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],

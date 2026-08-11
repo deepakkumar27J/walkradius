@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WalkInRadius.Application.DTOs
-{
-    internal class CoordinateDTO
-    {
-    }
-}
+namespace WalkInRadius.Application.DTOs;
+
+public record CoordinateDTO(double Latitude, double Longitude);
