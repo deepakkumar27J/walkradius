@@ -1,8 +1,38 @@
 {
   "version": 2,
-  "dgSpecHash": "g2GBTSyYEQA=",
+  "dgSpecHash": "s9DvT1eJR7k=",
   "success": true,
   "projectFilePath": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.11\\microsoft.extensions.caching.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.11\\microsoft.extensions.caching.memory.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.11\\microsoft.extensions.configuration.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.11\\microsoft.extensions.configuration.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.11\\microsoft.extensions.configuration.binder.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.11\\microsoft.extensions.dependencyinjection.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.11\\microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.diagnostics\\10.0.11\\microsoft.extensions.diagnostics.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.11\\microsoft.extensions.diagnostics.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.http\\10.0.11\\microsoft.extensions.http.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.logging\\10.0.11\\microsoft.extensions.logging.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.11\\microsoft.extensions.logging.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.options\\10.0.11\\microsoft.extensions.options.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.11\\microsoft.extensions.options.configurationextensions.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.11\\microsoft.extensions.primitives.10.0.11.nupkg.sha512",
+    "C:\\Users\\kumar\\.nuget\\packages\\system.text.json\\10.0.11\\system.text.json.10.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
