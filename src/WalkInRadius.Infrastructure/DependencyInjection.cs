@@ -14,14 +14,14 @@ public static class DependencyInjection
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        var apiKey = configuration["OpenRouteServices:ApiKey"]
+        var apiKey = configuration["OpenRouteService:ApiKey"]
             ?? throw new InvalidOperationException("ORS API Key is not configured.");
 
         //register httpClient for ors with base URL and API Key header
         services.AddHttpClient<OpenRouteServiceClient>(client =>
         {
             client.BaseAddress = new Uri("https://api.openrouteservice.org/");
-            client.DefaultRequestHeaders.Add("Authorization", apiKey);
+            client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
         });
 
         services.AddMemoryCache();

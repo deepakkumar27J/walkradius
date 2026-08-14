@@ -39,3 +39,5 @@ C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\WalkInRadius.Api
 C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\ref\WalkInRadius.Api.dll
 C:\dev mine\walkinradius\src\WalkInRadius.Api\obj\Debug\net10.0\WalkInRadius.Api.sourcelink.json
 C:\dev mine\walkinradius\src\WalkInRadius.Api\bin\Debug\net10.0\FluentValidation.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Api\bin\Debug\net10.0\FluentValidation.AspNetCore.dll
+C:\dev mine\walkinradius\src\WalkInRadius.Api\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

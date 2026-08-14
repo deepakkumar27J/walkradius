@@ -28,11 +28,12 @@ public class OpenRouteServiceClient
         var request = new OrsIsochroneRequest
         {
             Locations = [[longitude, latitude]],
-            Range_type = "time",
+            RangeType = "time",
             Range = [rangeSeconds]
         };
 
         var json = JsonSerializer.Serialize(request);
+        Console.WriteLine($"ORS Request: {json}");
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         var response = await _httpClient.PostAsync("v2/isochrones/foot-walking", content);
@@ -52,12 +53,14 @@ public class OpenRouteServiceClient
 
         var body = new { coordinates };
         var json = JsonSerializer.Serialize(body);
+        Console.WriteLine($"ORS Directions Request: {json}");
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         var response = await _httpClient.PostAsync("v2/directions/foot-walking/geojson", content);
         response.EnsureSuccessStatusCode() ;
 
         var responseJson = await response.Content.ReadAsStringAsync();
+        Console.WriteLine($"ORS Directions Response: {responseJson}");
         return JsonSerializer.Deserialize<OrsIsochroneDirectionsResponse>(responseJson, JsonOpts);
     }
 }

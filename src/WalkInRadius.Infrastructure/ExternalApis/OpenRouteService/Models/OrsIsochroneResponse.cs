@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WalkInRadius.Infrastructure.ExternalApis.OpenRouteService.Models;
+﻿namespace WalkInRadius.Infrastructure.ExternalApis.OpenRouteService.Models;
 
 public class OrsIsochroneResponse
 {

@@ -14,39 +14,35 @@ public class WalkingDataService : IWalkingDataService
         _orsClient = orsClient;
     }
 
-    public async Task<IEnumerable<Coordinate>> getCircularRouteAsync(
-        Coordinate start,
-        double radiusKm)
+    public async Task<(IEnumerable<Coordinate> Waypoints, double TotalDistanceMetres)> GetCircularRouteAsync(
+    Coordinate start, double radiusKm)
     {
         var rangeSeconds = (radiusKm / 5.0) * 3600;
 
-        // get reachable area
         var isochrone = await _orsClient.GetIsochroneAsync(
-            start.Latitude,
-            start.Longitude,
-            rangeSeconds);
+            start.Latitude, start.Longitude, rangeSeconds);
 
         if (isochrone?.Features is null || isochrone.Features.Count == 0)
-        {
             throw new InvalidOperationException("Could not get walkable area from routing service.");
-        }
 
-        // pick waypoints from the polygon boundry
         var polygon = isochrone.Features[0].Geometry.Coordinates[0];
         var waypoints = PickWaypoints(start, polygon);
 
-        //get direction between the waypoints
         var directions = await _orsClient.GetDirectionsAsync(waypoints);
 
-        if (directions?.Routes is null || directions.Routes.Count == 0)
+        if (directions?.Features is null || directions.Features.Count == 0)
             throw new InvalidOperationException("Could not generate walking route.");
 
-        //map ORS coordinates back to domain Coordinates
-        return directions.Routes[0].Geometry.Coordinates
+        var feature = directions.Features[0];
+        var totalDistanceMetres = feature.Properties.Summary.Distance;
+
+        var coordinates = feature.Geometry.Coordinates
             .Select(c => new Coordinate(c[1], c[0]))
             .ToList();
+
+        return (coordinates, totalDistanceMetres);
     }
-        // Pick evenly spaced waypoints
+    // Pick evenly spaced waypoints
 
     private static IEnumerable<(double Latitude, double Longitude)> PickWaypoints(
         Coordinate start,

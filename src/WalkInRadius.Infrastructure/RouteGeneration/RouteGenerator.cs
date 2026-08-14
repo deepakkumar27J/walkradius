@@ -16,24 +16,15 @@ public class RouteGenerator : IRouteGenerator
         _walkingDataService = walkingDataService;
     }
 
-    public async Task<Route> GenerateAsync (Walk walk)
+    public async Task<Route> GenerateAsync(Walk walk)
     {
         var radiusKm = walk.Constraint.ToEstimatedDistanceKm();
-
-        // For a circular walk, halve the radius so the total route
-        // fits within the constraint
         var effectiveRadiusKm = radiusKm / 2;
 
-        var coordinates = await _walkingDataService.getCircularRouteAsync(
-            walk.StartPoint,
-            effectiveRadiusKm);
+        var (coordinates, totalDistanceMetres) = await _walkingDataService.GetCircularRouteAsync(
+            walk.StartPoint, effectiveRadiusKm);
 
-        var waypoints = coordinates.ToList();
-
-        //Calculate total distance from the directions response
-        // for now estimate from radius
-        var totalDistanceKm = effectiveRadiusKm * 2;
-
-        return new Route(walk.Id, waypoints, totalDistanceKm);
+        var totalDistanceKm = totalDistanceMetres / 1000;
+        return new Route(walk.Id, coordinates.ToList(), totalDistanceKm);
     }
 }
