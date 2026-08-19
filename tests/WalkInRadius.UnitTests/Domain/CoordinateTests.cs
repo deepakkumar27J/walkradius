@@ -27,4 +27,32 @@ public class CoordinateTests
         var act = () => new Coordinate(lat, lon);
         act.Should().NotThrow();
     }
+
+    // ─── Invalid latitude ─────────────────────────────────────────────────────
+
+    [Theory]
+    [InlineData(91)]
+    [InlineData(-91)]
+    [InlineData(200)]
+    [InlineData(-200)]
+    [InlineData(double.MaxValue)]
+    public void Constructor_WithInvalidLatitude_ThrowsArgumentOutOfRangeException(double invalidLat)
+    {
+        var act = () => new Coordinate(invalidLat, 0);
+        act.Should().Throw<ArgumentOutOfRangeException>()
+            .WithParameterName("latitude");
+    }
+
+    // ─── Invalid longitude ────────────────────────────────────────────────────
+
+    [Theory]
+    [InlineData(181)]
+    [InlineData(-181)]
+    [InlineData(360)]
+    public void Constructor_WithInvalidLongitude_ThrowsArgumentOutOfRangeException(double invalidLon)
+    {
+        var act = () => new Coordinate(0, invalidLon);
+        act.Should().Throw<ArgumentOutOfRangeException>()
+            .WithParameterName("longitude");
+    }
 }
