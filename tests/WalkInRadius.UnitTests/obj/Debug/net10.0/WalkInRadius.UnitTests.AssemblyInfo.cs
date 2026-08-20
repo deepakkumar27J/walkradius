@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WalkInRadius.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+807a0df9d894069f6c799cf9098f47668d7a4732")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab5a80cb689ab9d0dbdbe7a5e7122b56655a7708")]
 [assembly: System.Reflection.AssemblyProductAttribute("WalkInRadius.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WalkInRadius.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

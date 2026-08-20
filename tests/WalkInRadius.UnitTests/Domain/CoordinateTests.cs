@@ -55,4 +55,22 @@ public class CoordinateTests
         act.Should().Throw<ArgumentOutOfRangeException>()
             .WithParameterName("longitude");
     }
+
+    [Fact]
+    public void TwoCoordinates_WithSameValues_AreEqual()
+    {
+        var a = new Coordinate(54.5973, -5.9301);
+        var b = new Coordinate(54.5973, -5.9301);
+
+        a.Should().Be(b);
+    }
+
+    [Fact]
+    public void TwoCoordinates_WithDifferentValues_AreNotEqual()
+    {
+        var a = new Coordinate(54.5973, -5.9301);
+        var b = new Coordinate(51.5074, -0.1278);
+
+        a.Should().NotBe(b);
+    }
 }
