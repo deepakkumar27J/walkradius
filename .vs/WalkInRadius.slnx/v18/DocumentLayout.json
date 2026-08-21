@@ -74,12 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -112,7 +108,7 @@
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "ToolTip": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "RelativeToolTip": "tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T20:51:02.031Z",
               "EditorCaption": ""
@@ -272,6 +268,14 @@
               "ViewState": "AgIAAB4AAAAAAAAAAAAowBAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-14T19:45:12.732Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

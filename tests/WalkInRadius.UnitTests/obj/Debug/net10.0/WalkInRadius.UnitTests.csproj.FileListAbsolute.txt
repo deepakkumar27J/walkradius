@@ -114,4 +114,8 @@ C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\WalkInRa
 C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\ref\WalkInRadius.UnitTests.dll
 C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\obj\Debug\net10.0\WalkInRadius.UnitTests.sourcelink.json
 C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\FluentValidation.dll
-C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\Castle.Core.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\FluentAssertions.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\FluentValidation.AspNetCore.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\dev mine\walkinradius\tests\WalkInRadius.UnitTests\bin\Debug\net10.0\Moq.dll
