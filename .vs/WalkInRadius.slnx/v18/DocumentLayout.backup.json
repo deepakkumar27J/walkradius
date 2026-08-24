@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\dev mine\\walkinradius\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\domain\\coordinatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\domain\\coordinatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\domain\\walkconstrainttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\domain\\walkconstrainttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\application\\generatewalkhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\application\\generatewalkhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\domain\\walkconstrainttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\domain\\walkconstrainttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\domain\\coordinatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\domain\\coordinatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\walkinradius.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -88,31 +88,33 @@
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Application\\GenerateWalkHandlerTests.cs",
               "ToolTip": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Application\\GenerateWalkHandlerTests.cs",
               "RelativeToolTip": "tests\\WalkInRadius.UnitTests\\Application\\GenerateWalkHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:51:36.898Z"
+              "WhenOpened": "2026-08-17T20:51:36.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WalkConstraintTests.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\WalkConstraintTests.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Domain\\WalkConstraintTests.cs",
               "ToolTip": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\WalkConstraintTests.cs",
               "RelativeToolTip": "tests\\WalkInRadius.UnitTests\\Domain\\WalkConstraintTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:51:17.906Z"
+              "WhenOpened": "2026-08-17T20:51:17.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CoordinateTests.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "ToolTip": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "RelativeToolTip": "tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T20:51:02.031Z",
               "EditorCaption": ""
