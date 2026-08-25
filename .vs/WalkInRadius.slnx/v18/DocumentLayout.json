@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\dev mine\\walkinradius\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7AB0739-C0FB-BB16-0E5A-C6F587FF8DD5}|tests\\WalkInRadius.IntegrationTests\\WalkInRadius.IntegrationTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.integrationtests\\factories\\walkapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7AB0739-C0FB-BB16-0E5A-C6F587FF8DD5}|tests\\WalkInRadius.IntegrationTests\\WalkInRadius.IntegrationTests.csproj|solutionrelative:tests\\walkinradius.integrationtests\\factories\\walkapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7AB0739-C0FB-BB16-0E5A-C6F587FF8DD5}|tests\\WalkInRadius.IntegrationTests\\WalkInRadius.IntegrationTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.integrationtests\\controllers\\walkcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7AB0739-C0FB-BB16-0E5A-C6F587FF8DD5}|tests\\WalkInRadius.IntegrationTests\\WalkInRadius.IntegrationTests.csproj|solutionrelative:tests\\walkinradius.integrationtests\\controllers\\walkcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB0739-C0FB-BB16-0E5A-C6F587FF8DD5}|tests\\WalkInRadius.IntegrationTests\\WalkInRadius.IntegrationTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.integrationtests\\factories\\walkapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7AB0739-C0FB-BB16-0E5A-C6F587FF8DD5}|tests\\WalkInRadius.IntegrationTests\\WalkInRadius.IntegrationTests.csproj|solutionrelative:tests\\walkinradius.integrationtests\\factories\\walkapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AB4F63F-B982-6497-CD18-442A6E722DE2}|src\\WalkInRadius.Api\\WalkInRadius.Api.csproj|c:\\dev mine\\walkinradius\\src\\walkinradius.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WalkControllerTests.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.IntegrationTests\\Controllers\\WalkControllerTests.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.IntegrationTests\\Controllers\\WalkControllerTests.cs",
               "ToolTip": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.IntegrationTests\\Controllers\\WalkControllerTests.cs",
               "RelativeToolTip": "tests\\WalkInRadius.IntegrationTests\\Controllers\\WalkControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T20:26:09.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WalkApiFactory.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.IntegrationTests\\Factories\\WalkApiFactory.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.IntegrationTests\\Factories\\WalkApiFactory.cs",
@@ -124,8 +124,7 @@
               "RelativeToolTip": "tests\\WalkInRadius.UnitTests\\Domain\\WalkConstraintTests.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowCYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:51:17.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T20:51:17.906Z"
             },
             {
               "$type": "Document",
@@ -221,8 +220,7 @@
               "RelativeToolTip": "src\\WalkInRadius.Api\\Program.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAADAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T20:34:39.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-14T20:34:39.741Z"
             },
             {
               "$type": "Document",
