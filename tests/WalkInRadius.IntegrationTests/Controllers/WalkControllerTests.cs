@@ -98,4 +98,93 @@ public class WalkControllerTests
         var response = await _client.PostAsync("/api/walk", body);
         response.StatusCode.Should().Be(HttpStatusCode.OK);
     }
+
+    [Fact]
+    public async Task POST_Walk_FirstAndLastWaypoint_AreSameLocation()
+    {
+        SetupMockRoute();
+
+        var body = JsonBody(new
+        {
+            latitude = 54.5973,
+            longitude = -5.9301,
+            constraintType = "Duration",
+            value = 30
+        });
+
+        var response = await _client.PostAsync("/api/walk", body);
+        var result = await response.Content.ReadFromJsonAsync<RouteDTO>();
+
+        var first = result!.Waypoints.First();
+        var last = result!.Waypoints.Last();
+
+        first.Latitude.Should().BeApproximately(last.Latitude, 0.0001);
+        first.Longitude.Should().BeApproximately(last.Longitude, 0.0001);
+    }
+
+    // failure cases
+    [Fact]
+    public async Task POST_Walk_WithInvalidLatitude_Retruns400()
+    {
+        var body = JsonBody(new
+        {
+            latitude = 200,
+            longitude = -5.9301,
+            constraintType = "Duration",
+            value = 30
+        });
+
+        var response = await _client.PostAsync("/api/walk", body);
+        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
+    [Fact]
+    public async Task POST_Walk_WithInvalidConstraintType_Returns400()
+    {
+        var body = JsonBody(new
+        {
+            latitude = 54.5973,
+            longitude = -5.9301,
+            constraintType = "Running",
+            value = 30
+        });
+
+        var response = await _client.PostAsync("/api/walk", body);
+        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
+    [Fact]
+    public async Task POST_Walk_WithZeroValues_Returns400()
+    {
+        var body = JsonBody(new
+        {
+            latitude = 54.5973,
+            longitude = -5.9301,
+            constraintType = "Duration",
+            value = 0
+        });
+
+        var response = await _client.PostAsync("/api/walk", body);
+        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
+    [Fact]
+    public async Task POST_Walk_WithMalformedJson_Returns400()
+    {
+        var body = new StringContent("{this is bad json }", Encoding.UTF8, "application/json");
+
+        var response = await _client.PostAsync("/api/walk", body);
+        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
+    [Fact]
+    public async Task POST_Walk_WithEmptyBody_Returns400()
+    {
+        var body = new StringContent("{}", Encoding.UTF8, "application/json");
+
+        var response = await _client.PostAsync("/api/walk", body);
+
+        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
 }
