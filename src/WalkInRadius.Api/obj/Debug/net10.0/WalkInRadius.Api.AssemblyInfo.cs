@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WalkInRadius.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63dc614e107661e293966d4f7dccf473f7ba0c93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69886014f6dd370cd7bc8990beaa7df8ab006b73")]
 [assembly: System.Reflection.AssemblyProductAttribute("WalkInRadius.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WalkInRadius.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

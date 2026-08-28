@@ -13,7 +13,7 @@ using WalkInRadius.Domain.Enums;
 
 namespace WalkInRadius.IntegrationTests.Controllers;
 
-public class WalkControllerTests
+public class WalkControllerTests : IClassFixture<WalkApiFactory>
 {
     private readonly HttpClient _client;
     private readonly WalkApiFactory _factory;
@@ -185,6 +185,37 @@ public class WalkControllerTests
         var response = await _client.PostAsync("/api/walk", body);
 
         response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
+    // Error response shape
+
+    [Fact]
+    public async Task POST_Walk_WithInvalidRequest_ReturnsErrorShape()
+    {
+        var body = JsonBody(new
+        {
+            latitude = 200,
+            longitude = -5.9301,
+            constraintType = "Duration",
+            value = 30
+        });
+
+        var response = await _client.PostAsync("/api/walk", body);
+        var json = await response.Content.ReadAsStringAsync();
+
+        using var doc = JsonDocument.Parse(json);
+        doc.RootElement.TryGetProperty("error", out _).Should().BeTrue();
+        doc.RootElement.TryGetProperty("timestamp", out _).Should().BeTrue();
+    }
+
+    //Wrong HTTP methods 
+
+    [Fact]
+    public async Task GET_Walk_Returns405MethodNotAllowed()
+    {
+        var response = await _client.GetAsync("/api/walk");
+
+        response.StatusCode.Should().Be(HttpStatusCode.MethodNotAllowed);
     }
 
 }
