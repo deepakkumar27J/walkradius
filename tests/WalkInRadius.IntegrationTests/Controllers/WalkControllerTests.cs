@@ -218,4 +218,21 @@ public class WalkControllerTests : IClassFixture<WalkApiFactory>
         response.StatusCode.Should().Be(HttpStatusCode.MethodNotAllowed);
     }
 
+
+    [Fact]
+    public async Task POST_Walk_WithInvalidLongitude_Returns400()
+    {
+        var body = JsonBody(new
+        {
+            latitude = 54.5973,
+            longitude = 200,
+            constraintType = "Duration",
+            value = 30
+        });
+
+        var response = await _client.PostAsync("/api/walk", body);
+
+        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+    }
+
 }
