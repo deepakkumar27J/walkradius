@@ -11,7 +11,7 @@ export function useUserGenerateWalk () {
     setError(null);
     setRoute(null);
     try {
-      const response = await fetch(`${API_URL}/api/walk`, {
+      const res = await fetch(`${API_URL}/api/walk`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -22,11 +22,11 @@ export function useUserGenerateWalk () {
           constraintType,
             value}),
         });
-        if(!response.ok) {
-            const errorData = await response.json();
+        if(!res.ok) {
+            const errorData = await res.json();
             throw new Error(errorData.message || 'Failed to generate walk');
         }
-        const data = await response.json();
+        const data = await res.json();
         setRoute(data);
     } catch (err) {
         setError(err.message);
