@@ -1,7 +1,7 @@
 import {useState} from 'react';
 const API_URL = import.meta.env.VITE_API_URL;
 
-export function useUserGenerateWalk () {
+export function useGenerateWalk () {
   const [route, setRoute] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
