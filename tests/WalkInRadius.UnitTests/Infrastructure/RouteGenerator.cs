@@ -54,4 +54,36 @@ public class RouteGeneratorTests
             s => s.GetCircularRouteAsync(It.IsAny<Coordinate>(), It.IsAny<double>()),
             Times.Once);
     }
+
+    [Fact]
+    public async Task GenerateAsync_SecondCallSameLocation_DoesNotCallWalkingDataService()
+    {
+        _mockWalkingDataService
+            .Setup(s => s.GetCircularRouteAsync(It.IsAny<Coordinate>(), It.IsAny<double>()))
+            .ReturnsAsync(FakeRouteData());
+
+        var walk1 = BuildWalk();
+        var walk2 = BuildWalk(); // same location, same constraint
+
+        await _routeGenerator.GenerateAsync(walk1);
+        await _routeGenerator.GenerateAsync(walk2);
+
+        // ORS should only be called once — second call hits cache
+        _mockWalkingDataService.Verify(
+            s => s.GetCircularRouteAsync(It.IsAny<Coordinate>(), It.IsAny<double>()),
+            Times.Once);
+    }
+
+    [Fact]
+    public async Task GenerateAsync_ReturnsRouteWithCorrectDistance()
+    {
+        _mockWalkingDataService
+            .Setup(s => s.GetCircularRouteAsync(It.IsAny<Coordinate>(), It.IsAny<double>()))
+            .ReturnsAsync(FakeRouteData());
+
+        var walk = BuildWalk();
+        var route = await _routeGenerator.GenerateAsync(walk);
+
+        route.TotalDistanceKm.Should().BeApproximately(2.5, 0.001);
+    }
 }
