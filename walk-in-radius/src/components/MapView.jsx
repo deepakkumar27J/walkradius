@@ -32,14 +32,14 @@ export default function MapView({ route }) {
   const startPoint = positions[0];
 
   return (
-  <div style={{ height: "100vh", width: "100%" }}>
-    <MapContainer
-      key="map"
-      center={defaultCenter}
-      zoom={14}
-      style={{ height: "100%", width: "100%" }}
-      zoomControl={true}
-    >
+    <div style={{ height: "100vh", width: "100%" }}>
+      <MapContainer
+        key="map"
+        center={defaultCenter}
+        zoom={14}
+        style={{ height: "100%", width: "100%" }}
+        zoomControl={true}
+      >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -50,7 +50,9 @@ export default function MapView({ route }) {
             <FitBounds positions={positions} />
             <Polyline
               positions={positions}
-              pathOptions={{ color: "#f59e0b", weight: 4, opacity: 0.9 }}
+              color="#f59e0b"
+              weight={4}
+              opacity={0.9}
             />
             <Marker position={startPoint}>
               <Popup>Start / End</Popup>

@@ -9,7 +9,9 @@ export default function RouteInfo({ route }) {
             </div>
             <div className="route-divider" />
             <div className="route-stat">
-                <span className="stat-value">{Math.round(route.totalDurationMinutes)} mins</span>
+                <span className="stat-value">
+                    {Math.round(Number(route.estimatedDurationMins))} mins
+                </span>
                 <span className="stat-label">Duration</span>
             </div>
             <div className="route-divider" />
