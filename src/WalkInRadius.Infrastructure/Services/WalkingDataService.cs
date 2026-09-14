@@ -68,4 +68,40 @@ public class WalkingDataService : IWalkingDataService
         return points;
     }
 
+    private static double CalculateBearing(
+    double startLat, double startLon,
+    double pointLat, double pointLon)
+    {
+        // Convert to radians
+        var lat1 = startLat * Math.PI / 180;
+        var lat2 = pointLat * Math.PI / 180;
+        var deltaLon = (pointLon - startLon) * Math.PI / 180;
+
+        var x = Math.Sin(deltaLon) * Math.Cos(lat2);
+        var y = Math.Cos(lat1) * Math.Sin(lat2)
+              - Math.Sin(lat1) * Math.Cos(lat2) * Math.Cos(deltaLon);
+
+        var bearing = Math.Atan2(x, y) * 180 / Math.PI;
+
+        // Normalise to 0-360
+        return (bearing + 360) % 360;
+    }
+
+    private static double CalculateDistanceKm(
+    double lat1, double lon1,
+    double lat2, double lon2)
+    {
+        const double R = 6371; // Earth radius in km
+        var dLat = (lat2 - lat1) * Math.PI / 180;
+        var dLon = (lon2 - lon1) * Math.PI / 180;
+
+        var a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2)
+              + Math.Cos(lat1 * Math.PI / 180)
+              * Math.Cos(lat2 * Math.PI / 180)
+              * Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+
+        var c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+        return R * c;
+    }
+
 }
