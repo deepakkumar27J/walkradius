@@ -46,8 +46,32 @@ public class WalkingDataService : IWalkingDataService
 
     private static IEnumerable<(double Latitude, double Longitude)> PickWaypoints(
         Coordinate start,
-        List<List<double>> polygon)
+        List<List<double>> polygon,
+    int numberOfWaypoints = 3,
+    double minDistanceRatio = 0.30)
     {
+
+        var pointsWithData = polygon.Select(point => new
+            {
+                Lon = point[0],
+                Lat = point[1],
+                Distance = CalculateDistanceKm(
+            start.Latitude, start.Longitude,
+            point[1], point[0]
+            ),
+                Bearing = CalculateBearing(
+            start.Latitude, start.Longitude,
+            point[1], point[0]
+            )
+            }).ToList();
+
+        var maxDistance = pointsWithData.Max(p => p.Distance);
+
+        var minDistance = maxDistance * 0.30; // 30% of max
+
+        var filteredPoints = pointsWithData
+            .Where(p => p.Distance >= minDistance)
+            .ToList();
         // Start with user location
         var points = new List<(double Lat, double Lon)>
         {
