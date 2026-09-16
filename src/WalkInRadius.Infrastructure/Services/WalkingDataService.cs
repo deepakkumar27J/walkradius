@@ -45,51 +45,63 @@ public class WalkingDataService : IWalkingDataService
     // Pick evenly spaced waypoints
 
     private static IEnumerable<(double Latitude, double Longitude)> PickWaypoints(
-        Coordinate start,
-        List<List<double>> polygon,
+    Coordinate start,
+    List<List<double>> polygon,
     int numberOfWaypoints = 3,
     double minDistanceRatio = 0.30)
     {
-
+        // Step 1 — calculate bearing and distance from start to every polygon point
         var pointsWithData = polygon.Select(point => new
-            {
-                Lon = point[0],
-                Lat = point[1],
-                Distance = CalculateDistanceKm(
-            start.Latitude, start.Longitude,
-            point[1], point[0]
-            ),
-                Bearing = CalculateBearing(
-            start.Latitude, start.Longitude,
-            point[1], point[0]
-            )
-            }).ToList();
+        {
+            Lon = point[0],
+            Lat = point[1],
+            Distance = CalculateDistanceKm(
+                start.Latitude, start.Longitude,
+                point[1], point[0]),
+            Bearing = CalculateBearing(
+                start.Latitude, start.Longitude,
+                point[1], point[0])
+        }).ToList();
 
+        // Step 2 — filter out points too close to start
         var maxDistance = pointsWithData.Max(p => p.Distance);
-
-        var minDistance = maxDistance * 0.30; // 30% of max
+        var minDistance = maxDistance * minDistanceRatio;
 
         var filteredPoints = pointsWithData
             .Where(p => p.Distance >= minDistance)
             .ToList();
-        // Start with user location
-        var points = new List<(double Lat, double Lon)>
-        {
-            (start.Latitude, start.Longitude)
-        };
 
-        // Pick 3 evenly spaced points from the polygon boundry, creating a circular path
-        var step = polygon.Count / 3;
-        for (int i = 0; i<3; i++)
+        // Step 3 — pick one point per target angle, evenly spread around 360°
+        var result = new List<(double Lat, double Lon)>
+    {
+        (start.Latitude, start.Longitude)  // always start here
+    };
+
+        for (int i = 0; i < numberOfWaypoints; i++)
         {
-            var point = polygon[i * step];
-            points.Add((point[1], point[0]));
+            // target angles: 0°, 120°, 240° for 3 waypoints
+            // 0°, 90°, 180°, 270° for 4 waypoints etc.
+            var targetBearing = (360.0 / numberOfWaypoints) * i;
+
+            // find the filtered point whose bearing is closest to the target
+            var best = filteredPoints
+                .OrderBy(p => AngleDifference(p.Bearing, targetBearing))
+                .First();
+
+            result.Add((best.Lat, best.Lon));
         }
 
-        //return to start to close the loop
-        points.Add((start.Latitude, start.Longitude));
+        // Step 4 — close the loop back to start
+        result.Add((start.Latitude, start.Longitude));
 
-        return points;
+        return result;
+    }
+
+    // handles the 350° vs 10° wrap-around problem
+    private static double AngleDifference(double a, double b)
+    {
+        var diff = Math.Abs(a - b) % 360;
+        return diff > 180 ? 360 - diff : diff;
     }
 
     private static double CalculateBearing(

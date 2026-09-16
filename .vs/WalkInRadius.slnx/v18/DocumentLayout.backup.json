@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev mine\\walkinradius\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B279ADCD-C7F0-9DEF-A533-8D4CD2EB6257}|src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj|c:\\dev mine\\walkinradius\\src\\walkinradius.infrastructure\\services\\walkingdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B279ADCD-C7F0-9DEF-A533-8D4CD2EB6257}|src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj|solutionrelative:src\\walkinradius.infrastructure\\services\\walkingdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\domain\\routetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\domain\\routetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|c:\\dev mine\\walkinradius\\tests\\walkinradius.unittests\\application\\generatewalkhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CF4CC2-C0AA-9653-2DB4-675D5A0CD721}|tests\\WalkInRadius.UnitTests\\WalkInRadius.UnitTests.csproj|solutionrelative:tests\\walkinradius.unittests\\application\\generatewalkhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B279ADCD-C7F0-9DEF-A533-8D4CD2EB6257}|src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj|c:\\dev mine\\walkinradius\\src\\walkinradius.infrastructure\\services\\walkingdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B279ADCD-C7F0-9DEF-A533-8D4CD2EB6257}|src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj|solutionrelative:src\\walkinradius.infrastructure\\services\\walkingdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B279ADCD-C7F0-9DEF-A533-8D4CD2EB6257}|src\\WalkInRadius.Infrastructure\\WalkInRadius.Infrastructure.csproj|c:\\dev mine\\walkinradius\\src\\walkinradius.infrastructure\\externalapis\\openrouteservice\\models\\orsisochroneresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,15 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CoordinateTests.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
@@ -78,11 +74,16 @@
               "RelativeToolTip": "tests\\WalkInRadius.UnitTests\\Domain\\CoordinateTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T20:12:22.251Z"
+              "WhenOpened": "2026-09-10T20:12:22.251Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RouteTests.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Domain\\RouteTests.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Domain\\RouteTests.cs",
@@ -95,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RouteGenerator.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\RouteGeneration\\RouteGenerator.cs",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Infrastructure\\RouteGeneration\\RouteGenerator.cs",
@@ -119,19 +120,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "WalkingDataService.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\Services\\WalkingDataService.cs",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Infrastructure\\Services\\WalkingDataService.cs",
               "ToolTip": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Infrastructure\\Services\\WalkingDataService.cs",
               "RelativeToolTip": "src\\WalkInRadius.Infrastructure\\Services\\WalkingDataService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwCQAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T21:07:42.128Z"
+              "WhenOpened": "2026-08-14T21:07:42.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\src\\WalkInRadius.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\WalkInRadius.Api\\Program.cs",
@@ -143,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GenerateWalkHandlerTests.cs",
               "DocumentMoniker": "C:\\dev mine\\walkinradius\\tests\\WalkInRadius.UnitTests\\Application\\GenerateWalkHandlerTests.cs",
               "RelativeDocumentMoniker": "tests\\WalkInRadius.UnitTests\\Application\\GenerateWalkHandlerTests.cs",
@@ -224,6 +226,10 @@
               "ViewState": "AgIAAB4AAAAAAAAAAAAowBAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-14T19:45:12.732Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
