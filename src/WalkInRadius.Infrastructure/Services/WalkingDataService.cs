@@ -50,7 +50,7 @@ public class WalkingDataService : IWalkingDataService
     int numberOfWaypoints = 3,
     double minDistanceRatio = 0.30)
     {
-        // Step 1 — calculate bearing and distance from start to every polygon point
+        // Step 1 — calculate bearing and distance for every polygon point
         var pointsWithData = polygon.Select(point => new
         {
             Lon = point[0],
@@ -73,25 +73,27 @@ public class WalkingDataService : IWalkingDataService
 
         // Step 3 — pick one point per target angle, evenly spread around 360°
         var result = new List<(double Lat, double Lon)>
-    {
-        (start.Latitude, start.Longitude)  // always start here
-    };
+        {
+            (start.Latitude, start.Longitude)
+        };
 
         for (int i = 0; i < numberOfWaypoints; i++)
         {
-            // target angles: 0°, 120°, 240° for 3 waypoints
-            // 0°, 90°, 180°, 270° for 4 waypoints etc.
             var targetBearing = (360.0 / numberOfWaypoints) * i;
 
-            // find the filtered point whose bearing is closest to the target
+            // pick closest by bearing, prefer further distance, must be distinct
             var best = filteredPoints
                 .OrderBy(p => AngleDifference(p.Bearing, targetBearing))
-                .First();
+                .ThenByDescending(p => p.Distance)
+                .FirstOrDefault(p => result.All(chosen =>
+                    CalculateDistanceKm(chosen.Lat, chosen.Lon, p.Lat, p.Lon) > 0.15
+                ));
 
-            result.Add((best.Lat, best.Lon));
+            if (best is not null)
+                result.Add((best.Lat, best.Lon));
         }
 
-        // Step 4 — close the loop back to start
+        // Step 4 — close the loop
         result.Add((start.Latitude, start.Longitude));
 
         return result;
